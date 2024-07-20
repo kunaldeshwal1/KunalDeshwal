@@ -126,6 +126,7 @@
 body {
   color: #333;
   font-size: 18px;
+  
 }
 
 /* body {
@@ -242,6 +243,27 @@ ul.side-nav.fixed a {
   line-height: 100%;
   padding: 10px 0 12px;
 }
+.container.flow-text {
+  font-size: 16px;
+}
+
+.col.s12.m6.l4 {
+  /* Example initial styles */
+  transition: all 1s ease;
+}
+
+.col.s12.m6.l4:hover {
+  /* Styles on hover to see the transition effect */
+  transform: scale(1.05);
+}
+.col.s12.m6.l6{
+  transition: all 1s ease;
+  
+}
+.col.s12.m6.l6:hover{
+  transform: scale(1.05);
+  
+}
 
 ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
   border: none;
@@ -306,6 +328,12 @@ h3 {
   padding-bottom: 30px;
   padding-top: 0;
   position: relative;
+  transition: all 1s ease;
+}
+
+.section:hover{
+  transform: scale(1.05);
+
 }
 
 .full-height {
@@ -348,7 +376,7 @@ h3 {
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #24305e;
+  border-bottom: 5px solid #213fb9;
 }
 
 #intro.section .teal {
@@ -367,7 +395,7 @@ h3 {
 .waves-effect.waves-blue .waves-ripple {
   /* The alpha value allows the text and background color
    of the button to still show through. */
-  background-color: rgba(33, 150, 243, 0.2);
+  background-color: rgba(27, 126, 208, 0.2);
 }
 
 .card {
